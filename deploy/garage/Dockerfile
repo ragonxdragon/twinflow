@@ -7,7 +7,7 @@
 # Pinned by digest. The tag beside it says which version the digest is, and the
 # digest is what docker resolves. A tag is a mutable pointer, and a supply chain
 # that rests on one is a supply chain nobody has pinned.
-FROM python:3.14-slim-bookworm@sha256:48b13b003dda20b16f9442b8475aa05fe21bf6579a8c881db92ffb4d8fd20f83
+FROM python:3.15-slim-bookworm@sha256:575f8bc12ec26542e0678bc6b60e385218248019d433157ec327264a78c3a853
 
 # uv resolves the workspace from uv.lock, so the container installs the versions
 # CI locked rather than whatever the index serves today.
